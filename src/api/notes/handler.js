@@ -1,7 +1,7 @@
 export default class NotesHandler {
   constructor(service, validator) {
     this._service = service;
-    this._validator = validator;
+    this._validator = validator; 
 
     this.postNoteHandler = this.postNoteHandler.bind(this);
     this.getNotesHandler = this.getNotesHandler.bind(this);
